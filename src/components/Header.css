@@ -1,0 +1,26 @@
+.app-header {
+    padding: 1em;
+    background-color: #003366;
+    color: white;
+    text-align: center;
+}
+
+.header-title {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.main-nav {
+    margin-top: 1em;
+}
+
+.nav-link {
+    margin: 0 0.5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #ffcc00;
+}

@@ -1,0 +1,57 @@
+.home-container {
+    padding: 2em;
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.home-title {
+    font-size: 2.5em;
+    color: #003366;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.home-description, .home-philosophy {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.home-activities {
+    margin-top: 2em;
+}
+
+.activities-title {
+    font-size: 2em;
+    color: #003366;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.activities-images {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+.activity-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .activities-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .activity-image {
+        max-width: 90%;
+        margin-bottom: 1em;
+    }
+}
